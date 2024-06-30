@@ -1,18 +1,18 @@
 /* INI CSS */
 
 main {
-    padding: 32px;
+    padding: 3px;
+
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
 }
 
 .profile-icon {
-    width: 50px;
+    width: 20px;
     height: 5%;
 }
 
@@ -22,15 +22,25 @@ main {
 }
 
 nav>a {
-    padding-left: 32px;
-    padding-right: 32px;
-    border: 1px solid;
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border: 3px solid;
 }
 
-.banner-container {
+.a-navbar {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.a-navbar:hover {
+    background-color: black;
+    border-radius: 8px;
+}
+
+.video-content {
     width: 100%;
-    height: 500px;
-    border: 1px solid;
 }
 
 .media-content {
@@ -43,6 +53,11 @@ nav>a {
 }
 
 .logo-media {
+    width: 100%;
+    height: 100px;
+}
+
+.logo-contact {
     width: 100%;
     height: 100px;
 }
