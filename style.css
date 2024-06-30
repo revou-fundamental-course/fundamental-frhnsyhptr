@@ -1,0 +1,48 @@
+/* INI CSS */
+
+main {
+    padding: 32px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+.profile-icon {
+    width: 50px;
+    height: 5%;
+}
+
+.img-content {
+    width: 500%;
+    height: 50%;
+}
+
+nav>a {
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container {
+    width: 100%;
+    height: 500px;
+    border: 1px solid;
+}
+
+.media-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.media-item {
+    text-align: center;
+}
+
+.logo-media {
+    width: 100%;
+    height: 100px;
+}
