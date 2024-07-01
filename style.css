@@ -9,6 +9,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
 }
 
 .profile-icon {
@@ -19,6 +20,11 @@ main {
 .img-content {
     width: 500%;
     height: 50%;
+    left: 30px;
+    position: relative;
+    border: 0px solid #000000;
+    transform-origin: bottom left;
+    background-repeat: no-repeat;
 }
 
 nav>a {
@@ -35,7 +41,7 @@ nav>a {
 }
 
 .a-navbar:hover {
-    background-color: black;
+    background-color: white;
     border-radius: 8px;
 }
 
