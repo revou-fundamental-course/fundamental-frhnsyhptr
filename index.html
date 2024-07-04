@@ -1,96 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmo Creative Agency</title>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <title>COSMO CREATIVE AGENCY</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    />
 
-    <body>
-        <main>
-        <!-- INI HEADER NAV -->
-        <header class="nav-container">
-            <div class="profile-icon">
-                <img src="Assets/Logo Cosmo.png" class="img-content"/>
-            </div>
-            <nav>
-                <a href="#Home" class="a-navbar">HOME</a>
-                <a href="service.html" class="a-navbar">OUR SERVICE</a>
-                <a href="#Social" class="a-navbar">SOCIAL MEDIA</a>
-                <a href="#Contact" class="a-navbar">CONTACT ME</a>
-            </nav>
-        </header>
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
 
-        <hr />
-        <!-- INI HOME -->
-            <section id="Home">
-                <header>
-                    <h1>Welcome To COSMO CREATIVE AGENCY</h1>
-                    <video poster="Thumbnail.png" autoplay loop muted class="video-content">
-                        <source src="Assets/Sponsor Cosmo.mp4" type="video/mp4">
-                    </video>
-                </header>
-            </section>
-            <hr />
-        <!-- INI SOCIAL MEDIA -->
-            <section id="Social">
-                <header>
-                    <h1>OUR SOCIAL MEDIA</h1>
-                </header>
-                <article class="media-content">
-                    <div class="media-item">
-                        <div>
-                            <a href="https://www.instagram.com/cos.mocrew">
-                                <img src="Assets/Logo Instagram.png" class="logo-media"/> 
-                            </a>
-                        </div>
-                        <p>INSTAGRAM</p>
-                    </div>
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-                    <div class="media-item">
-                        <div>
-                            <a href="https://www.tiktok.com/@kronoscreativedesign_">
-                                <img src="Assets/Logo Tiktok.png" class="logo-media"/>
-                            </a>
-                        </div>
-                        <p>TIKTOK</p>
-                    </div>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">CosmoCreative<span>Agency</span>.</a>
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#produk">Produk Kami</a>
+        <a href="#contact">Kontak</a>
+      </div>
 
-                    <div class="media-item">
-                        <div>
-                            <a href="https://youtube.com/cosmocreativeagency">
-                                <img src="Assets/Logo Youtube.png" class="logo-media"/>
-                            </a>
-                        </div>
-                        <p>YOUTUBE</p>
-                    </div>
-                </article>
-            </section>
-            <hr />
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
 
-        <!-- INI CONTACT -->
-            <section id="Contact">
-                <header>
-                    <p class="text-content">FOR MORE INFORMATION, PLEASE PRESS THE ICON BELOW</p>
-                </header>
-                <article class="media-content">
-                <div class="media-item">
-                    <div>
-                        <a href="https://wa.me/087761737504">
-                            <img src="Assets/Logo WA.png" class="logo-media"/> 
-                        </a>
-                    </div>
-                </div>
-                </article>
-            </section>
-        <hr />
+    <!-- HERO SECTION START -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Berkreasi <span>Bersama</span></h1>
+        <p>Cosmo Creative Agency</p>
+        <a href="#about" class="cta">Start</a>
+      </main>
+    </section>
+    <!-- HERO SECTION END -->
 
-        <!-- INI FOOTER -->
-         <div>
-            <p>© Copyright Cosmo Creative Agency 2021. All Right Reserved</p>
-         </div>
-        </main> 
-    </body>
+    <!-- ABOUT SECTION START -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="Assets/Event 1.png" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Mengapa harus memilih produk kami?</h3>
+          <p>
+            Cosmo Creative Agency dikenal karena pendekatannya yang inovatif dan
+            kreatif dalam desain, memastikan event Anda tidak hanya menarik
+            secara visual tetapi juga unik dan menonjol di antara pesaing.
+          </p>
+          <p>
+            Cosmo Creative Agency memiliki tim yang terdiri dari desainer yang
+            sangat berbakat dan berpengalaman, yang memastikan bahwa setiap
+            produk tidak hanya estetis menarik tetapi juga fungsional dan
+            inovatif.
+          </p>
+          <p>
+            Cosmo Creative Agency juga dikenal karena dukungan klien yang luar
+            biasa, membantu Anda selama dan setelah proses desain untuk
+            memastikan keberhasilan berkelanjutan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- PRODUK SECTION START -->
+    <section id="produk" class="produk">
+      <h2><span>Produk</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+        nobis.
+      </p>
+
+      <div class="row">
+        <div class="produk-card">
+          <img
+            src="Assets/Logo Cosmo.png"
+            alt="Mapping Stage"
+            class="=produk-card-img"
+          />
+          <h3 class="produk-card-tittle">- Mapping Stage -</h3>
+          <p class="produk-card-price">IDR.9000K</p>
+        </div>
+        <div class="produk-card">
+          <img
+            src="Assets/Logo Cosmo.png"
+            alt="Mapping Stage"
+            class="=produk-card-img"
+          />
+          <h3 class="produk-card-tittle">- VideoTron Stage -</h3>
+          <p class="produk-card-price">IDR.15000K</p>
+        </div>
+        <div class="produk-card">
+          <img
+            src="Assets/Logo Cosmo.png"
+            alt="Mapping Stage"
+            class="=produk-card-img"
+          />
+          <h3 class="produk-card-tittle">- Event Documentation -</h3>
+          <p class="produk-card-price">IDR.5000K</p>
+        </div>
+        <div class="produk-card">
+          <img
+            src="Assets/Logo Cosmo.png"
+            alt="Mapping Stage"
+            class="=produk-card-img"
+          />
+          <h3 class="produk-card-tittle">- Event Organizer -</h3>
+          <p class="produk-card-price">IDR.8000K</p>
+        </div>
+      </div>
+    </section>
+    <!-- PRODUK SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad
+        perspiciatis optio! Accusantium, doloremque culpa.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.93127876125!2d113.48871753956904!3d-7.133945677410759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd77d2c6b8471b3%3A0x3079672df26d3858!2sCosmo%20Creative%20Agency!5e0!3m2!1sid!2sid!4v1720059653973!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" id="name" placeholder="nama" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" id="email" placeholder="email" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input
+              type="text"
+              id="nomor"
+              placeholder="nomor telepon"
+              required
+            />
+          </div>
+
+          <!--
+          <div class="input-group">
+            <i data-feather="calendar"></i>
+            <input
+              type="date"
+              id="tanggal"
+              placeholder="tanggal hari ini"
+              required
+            />
+          </div>
+          -->
+
+          <div class="input-group">
+            <i data-feather="inbox"></i>
+            <input type="text" id="pesan" placeholder="pesan" required />
+          </div>
+          <button type="submit" onclick="validateForm();" class="btn">
+            Kirim
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+    <!-- VALIDASI DATA START -->
+    <!--<div id="result" class="input-data">
+      <p>Nama:</p>
+      <p>Email:</p>
+      <p>Nomor Telepon:</p>
+      <p>Pesan:</p>
+    </div>-->
+    <!-- VALIDASI DATA END -->
+
+    <!-- FOOTER START -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#produk">Produk Kami</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="">IlhamFarhansyahPutra</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
